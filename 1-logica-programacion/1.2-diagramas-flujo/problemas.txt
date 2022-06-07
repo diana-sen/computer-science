@@ -1,0 +1,90 @@
+Deficion DF 2
+Calculen el area y perimetro de 3 figuras (cuadrado, triángulo isóceles y un rectángulo)
+
+-área
+-perimetro
+
+
+Se debe ingresar las medidas y el tipo de figura  que quiero
+
+base
+altura
+lados
+
+** Todo se debe calcular y mostrar de forma independiente
+** Ejemplo, escoge perimetro => solo pediría L y no calcularía área
+** Es necesario repetir el flujo? Si
+** No es necesario manejar excepciones
+
+1. Preguntar que tipo de figura quieren
+a) Cuadrado 
+b) Triángulo Isóceles
+c) Rectángulo
+
+2. Si figura es cuadrado preguntar 
+a)perímetro
+b)área
+
+    2.1 Si es perímetro solicitar medida del lado
+        2.1.1 Hacer multiplicación perimetro = 4*L
+        2.1.2 Imprimir perímetro
+
+    2.2 Si es área solicitar medida del lado
+        2.2.1 área = L^2
+
+   3 No es cuadrado, preguntar si es triángulo isoceles
+
+
+PSEUDOCÓDIGO CALCULO figuras
+
+INICIO
+Solicita la figura
+Guarda figura en fig
+Solicita operación
+Guarda operación en calc
+    SI Y SOLO SI fig es igual a cuadrado y calc igual área ENTONCES ingresar L y calcular área= L * L 
+    Guardar resultado en res
+    SI y SOLO SI fig es cuadrado y calc perímetro ENTONCES ingresar L y perimetro = 4 * L
+    Guardar resultado en res
+    SI Y SOLO SI fig es triángulo y calc igual área ENTONCES ingresar base y altura y calcular área = (base * altura)/2
+    Guardar resultado en res
+    SI y SOLO SI fig es triángulo y calc perímetro ENTONCES ingresar base y lado y perimetro = 2 * lado + base
+    Guardar resultado en res
+    SI Y SOLO SI fig es igual a rectángulo y calc igual área ENTONCES ingresar L y calcular área= largo * ancho
+    Guardar resultado en res
+    SI y SOLO SI fig es rectángulo y calc perímetro ENTONCES ingresar largo, ancho y hacer calculo perimetro =2*ancho + 2*largo|
+    Guardar Resultado en res
+Imprime res
+Si usuario quiere un nuevo calculo, volver a solicitar la figura (paso 2)
+FIN
+
+
+
+PSEUDOCÓDIGO FACTORIAL DE UN NÚMERO
+Calcular el factorial de un número ingresado por el usuario
+
+INICIO
+Solicita número para calcular factorial
+Guardar número en num
+Definir un contador en 1, factorial en 1 
+Mientras contador sea menor o igual a num entonces Resultado = resultado * contador
+Mostrar  Resultado
+FIN
+
+
+Algoritmo Factorial
+	Escribir "Porfavor ingresa un numero"
+	Leer numero
+	resultado = 1
+	Para i=1 Hasta numero Con Paso 1 Hacer
+		resultado = resultado*i
+	Fin Para
+	Imprimir resultado
+FinAlgoritmo
+
+
+PSEUDOCÓDIGO SERIE FIBONNACCI
+
+PSEUDOCÓDIO DE UNA SERIE DE NÚMEROS DECIDIR CUALES SON PARES Y CUALES No
+si en la serie aparece una letra, ir directo al fin
+

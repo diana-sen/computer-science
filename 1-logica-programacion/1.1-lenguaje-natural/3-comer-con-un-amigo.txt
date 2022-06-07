@@ -6,13 +6,13 @@ Quiero ir a comer con un amigo en un restaurante
 3. Si su respuesta es si, ponerse de acuerdo para comer // si es no, buscar otro amigo que quiera
 4. Elegir restaurante  
 5. Acordar la fecha y hora 
-6. Ir al restaurante en la fecha y hora acordadas
-7. Saludar a mi amigo
+6. Ir al restaurante en la fecha y hora acordadas.
+7. Ubicar y saludar a mi amigo
 8. Entrar al restaurante
 9. Buscar una mesa
 10. Sentarse con el amigo
 11. Ordenar la comida
-12. Comer 
+12. Comer y platicar
 13. Pagar la cuenta
 14. Salir del restaurante
 15. Despedirse del amigo
